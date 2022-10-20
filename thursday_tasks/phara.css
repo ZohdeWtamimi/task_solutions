@@ -1,0 +1,29 @@
+body{
+    background-color: #FEF5E7;
+}
+div{
+    border: 3px #000 solid;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    background-color: #fff;
+    width: 80%;
+}
+.orange{
+    background-color: rgb(231, 143, 113);
+    font-weight: 700;
+}
+.yellow{
+    background-color: rgb(217, 231, 113);
+    font-weight: 700;
+}
+.second{
+    border-style: dashed;
+}
+.second p{
+    border: 2px red dashed;
+    /* height: 90%; */
+    /* padding-bottom: 0; */
+}
+.third{
+    color: purple;
+}
