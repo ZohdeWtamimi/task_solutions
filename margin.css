@@ -1,0 +1,95 @@
+/* Common Styles */
+.content,
+.content1,
+.content2 {
+  color: #fff;
+  font: 100 24px/100px sans-serif;
+  height: 150px;
+  width: 897px;
+  background-color: aqua;
+  text-align: center;
+}
+
+.content div,
+.content1 div,
+.content2 div {
+  height: 50%;
+  width: 350px;
+}
+.red {
+  background: orangered;
+}
+.green {
+  background: yellowgreen;
+}
+.blue {
+  background: steelblue;
+}
+
+/* Flexbox Styles */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.content1 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 70px;
+}
+.content2 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-bottom: 100px;
+}
+
+.container{
+    width: 900px;
+    background-color: #ccc;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 0px;
+    border: 5px solid rgb(216, 178, 39);
+}
+
+.container div{
+    width: 200px;
+    height: 900px;
+    color: #fff;
+    background-color: red;
+    text-align: center;
+    line-height: 200px;
+    font-size: 2rem;
+}
+
+.container .one{
+    background-color: green;
+}
+.container .tow{
+    background-color: yellow;
+}
+.container .three{
+    background-color: purple;
+}
+.container .four{
+    background-color: gray;
+}
+.container .five{
+    background-color: blue;
+}
+.container .six{
+    background-color: orange;
+}
+.container .seven{
+    background-color: pink;
+}
+.container .eight{
+    background-color: yellow;
+}
+.container .nine{
+    background-color: red;
+}
+.container .ten{
+    background-color: crimson;
+}
+
