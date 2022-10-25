@@ -1,6 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container{
-    width: 100vh;
-    width: 100vw;
     background-color: #ccc;
     display: flex;
     /* flex-wrap: wrap; */
@@ -9,8 +13,8 @@
 }
 
 .container div{
-    width: 200px;
-    height: 100vh;
+    width: 100vw;
+    height: calc(100vh - 10px);
     color: #fff;
     background-color: red;
     text-align: center;
