@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #ccc;
+        }
+        .grid{
+        display: grid;
+        grid-template-rows: auto auto auto;
+        background-color: #fff;
+        border: 5px solid #fff;
+        gap: 5px;
+        }
+        .item{
+            padding: 10px;
+            background-color: aquamarine;
+        }
+        .it1{
+            font-size: 34px;
+            font-weight: 700;
+        }
+        .it3{
+            text-align: center;
+        }
+        .it3 > button{
+            background-color: #fff;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="item it1">I'm card</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. In iure magnam quaerat quisquam incidunt. A voluptates aliquam commodi quaerat doloribus, illo ea dolor ducimus.</div>
+        <div class="item it3">
+            <p>and</p>
+            <button>BIG BUTTON</button>
+        </div>
+    </div>
+</body>
+</html>
